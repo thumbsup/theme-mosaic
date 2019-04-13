@@ -18,6 +18,17 @@ thumbsup --theme mosaic
 ![albums](docs/albums.png)
 ![media](docs/media.png)
 
+## Options
+
+You can use override the following variables to customise this theme:
+
+```less
+@body-background: #fff;
+@highlight-color: #17baef;
+```
+
+You can add them to your own LESS file, and run thumbsup with `--theme-style custom.less`.
+
 ## Developing
 
 Testing the theme
